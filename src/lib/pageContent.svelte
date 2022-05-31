@@ -10,8 +10,8 @@
 <div class="main">
     <div>
         <h1>Page #{pageNumber}</h1>
-        <button on:click={switchPage} class="h1">Switch page</button>
-        <button on:click={() => window.print()} class="h1">Print page</button>
+        <button on:click={switchPage} class="h1 d-print-none">Switch page</button>
+        <button on:click={() => window.print()} class="h1 d-print-none">Print page</button>
     </div>
 
     <img src={logo} alt="Svelte Logo"/>
